@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Backend storage
+backend/storage/db.sqlite3
+backend/storage/vectors.db
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Environment
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (large files)
+data/test_data.zip
